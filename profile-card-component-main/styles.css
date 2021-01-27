@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: hsl(185, 75%, 39%);
+    overflow: hidden;
+
+}
+
+.circles {
+    position: relative;
+    display: block;
+
+}
+
+.circle1 {
+    position: absolute;
+    top: -200px;
+    left: -50px;
+    width: 600px;
+
+
+
+}
+
+.circle2 {
+    position: absolute;
+    width: 800px;
+    bottom: -1000px;
+    right: -200px;
+  
+
+
+}
+
+.profile-card {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-card__img {
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    border: 3px solid white;
+}
+
+.profile-card__content {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.message {
+    grid-row: 2/3;
+    text-align: center;
+    grid-column: span 4;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: hsl(229, 23%, 23%);
+}
+
+.town {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 59%);
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.profile-card__social-media-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    line-height: 1.5;
+    padding: 25px 10px;
+
+}
+
+.profile-card__social-media-info p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.profile-card__social-media-info span {
+    font-size: 0.8rem;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
